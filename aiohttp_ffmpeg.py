@@ -67,7 +67,7 @@ class VideoDownloader:
         self.segment_semaphore = segment_semaphore
         self.headers = headers or {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-            'Referer': 'https://www.xiaoheihe.cn/',
+            'Referer': 'https://store.steampowered.com/',
         }
 
     async def parse_m3u8(self, url):
